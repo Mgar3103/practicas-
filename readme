@@ -1,0 +1,22 @@
+# CRUD Videojuegos 
+
+API REST desarrollada con FastAPI y SQLAlchemy conectada a PostgreSQL.
+
+## Tecnologías
+- Python
+- FastAPI
+- SQLAlchemy
+- PostgreSQL
+
+## Endpoints
+- POST /videojuegos/ → Crear videojuego
+- GET /videojuegos/ → Listar todos
+- GET /videojuegos/{id} → Obtener uno
+- PUT /videojuegos/{id} → Actualizar
+- DELETE /videojuegos/{id} → Eliminar
+
+## Cómo ejecutar
+```bash
+uvicorn main:app --reload
+```
+Entrar a http://127.0.0.1:8000/docs
